@@ -1,0 +1,53 @@
+{
+  "name": "tooy-plus",
+  "private": false,
+  "version": "0.0.6",
+  "description": "A Vue3 UI From Tooy.",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "main": "./dist/tooy-plus.umd.cjs",
+  "module": "./dist/tooy-plus.js",
+  "browser": "./dist/tooy-plus.js",
+  "exports": {
+    "./dist/style.css": "./dist/style.css",
+    "./css": "./dist/style.css",
+    ".": {
+      "import": "./dist/tooy-plus.js",
+      "require": "./dist/tooy-plus.umd.cjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "publish": "npm publish --registry=https://registry.npmjs.org/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  },
+  "author": {
+    "name": "y_aurora",
+    "email": "13192706165@163.com",
+    "url": "https://github.com/Tooy8"
+  },
+  "keywords": [
+    "Vue3",
+    "TS",
+    "Vite",
+    "Sass",
+    "UI",
+    "Components"
+  ],
+  "license": "MIT"
+}

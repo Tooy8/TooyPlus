@@ -1,0 +1,13 @@
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, hsl(170, 82%, 40%) 30%, #41d1ff);
+    --vp-button-brand-bg: #5672CD;
+    --vp-button-brand-border: #5672CD;
+    --vp-c-brand: #5672CD;
+    --vp-button-brand-hover-bg: #3A5CCC;
+    --vp-button-brand-hover-border: transparent;
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: rgba(60, 60, 67);
+    --vp-custom-block-tip-bg: rgba(100, 108, 255, .14);
+
+}
