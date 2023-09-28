@@ -1,6 +1,6 @@
 // 使用并扩展默认主题 DefaultTheme
 import DefaultTheme from "vitepress/theme";
-import './custom.css'
+import './custom.scss'
 
 /* development */
 import YElementPlus from '../../../packages/dist/tooy-plus'

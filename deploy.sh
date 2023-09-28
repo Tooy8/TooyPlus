@@ -11,10 +11,10 @@ cd docs/.vitepress/dist
 
 git init
 git add .
-git commit -m 'deploy'
+git commit -m '美化界面'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/mcmcCat/mmcat-ui.git master:gh-pages
+git push -f https://github.com/Tooy8/TooyPlus.git master:gh-pages
 
 # 退出当前dist目录
 cd -

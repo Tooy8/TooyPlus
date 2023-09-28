@@ -1,9 +1,20 @@
 export default {
 
-    base: process.env.NODE_ENV === "production" ? "/tooyui/" : "/",
-
+    base: process.env.NODE_ENV === "production" ? "/TooyPlus/" : "/",
+    head: [ // 网站图标
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: 'https://cn.vitejs.dev/viteconf.svg' }]
+        // ['link', { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
+    ],
+    appearance: 'dark', // 默认 true，设为 false 则无法切换dark/light主题，可选 'dark' true false
 
     themeConfig: {
+
+        footer: {
+            message: 'Released under the MIT License.',
+            copyright: 'Copyright © 2023-present The TOOY'
+        },
+
+
         // 站点标题 (页面左上角标题)
         siteTitle: "TOOY UI", //设置成false后，可用logo代替
         nav: [
@@ -34,7 +45,7 @@ export default {
                 ]
             }
         ],
-        socialLinks: [{ icon: "github", link: "https://github.com/Tooy8/TooyUI" }],
+        socialLinks: [{ icon: "github", link: "https://github.com/Tooy8/TooyPlus" }],
 
         sidebar: {
             "/guild/": [
