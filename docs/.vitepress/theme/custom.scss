@@ -171,13 +171,13 @@ h1 {
 }
 
 html:not(.dark) .VPHome {
-    background: url(../../assets/images/white.jpg) no-repeat center;
+    background: url(../../public/white.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
 }
 
 html.dark .VPHome {
-    background: url(../../assets/images/black.jpg) no-repeat center;
+    background: url(../../public/black.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
 }
